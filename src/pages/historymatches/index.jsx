@@ -9,7 +9,6 @@ import Ning from "../../assets/images/ning.png";
 import Avondale from "../../assets/images/avondale.png";
 import Pegasus from "../../assets/images/pegasus.png";
 import Juventus from "../../assets/images/juventus.png";
-import Barcelona from "../../assets/images/barcelona.png";
 import {BackArrowIcon} from "../../icons"
 import { Link } from "react-router-dom";
 const HistoryMatches = () => {

@@ -17,6 +17,9 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
+      .backicon{
+        cursor: pointer;
+      }
       .backarrow {
         display: flex;
         gap: 15px;
@@ -133,13 +136,17 @@
         .trackeractive {
           display: flex;
           flex-direction: column;
+          cursor: pointer;
           .blueHR {
             border: 1px solid #ff7800;
+          cursor: pointer;
+
           }
   
           .blueText {
             color: var(--Dark-Grey, #484848);
             font-family: "Inter", sans-serif;
+          cursor: pointer;
   
             font-size: 20px;
             font-style: normal;
