@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  background: linear-gradient(rgba(0, 0, 0, 0.726), rgba(0, 0, 0, 0.767)), url("../../assets/images/match.png");
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  mix-blend-mode: luminosity;
+  padding-bottom: 50px;
+}
+.background .control {
+  padding-top: 38px;
+}
+.background .control .text h2 {
+  color: #fff;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.background .control .user {
+  display: flex;
+  align-items: center;
+  padding-top: 25px;
+}
+.background .control .user .images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.background .control .user .images img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.background .control .user .images h2 {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.background .control .user .hr hr {
+  rotate: 90deg;
+  width: 100px;
+  background: #fff;
+}
+.background .control .user .info {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+.background .control .user .info .infotext h2 {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.background .control .user .info .infoimages {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.background .control .user .info .infoimages h2 {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.flexslog {
+  padding-top: 30px;
+}
+.flexslog .log1 {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(154, 154, 154, 0.25);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 10px;
+}
+.flexslog .log1 h2 {
+  color: var(--Dark-Grey, #484848);
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.flexslog .log2 {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(154, 154, 154, 0.25);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 10px;
+  margin-top: 20px;
+}
+.flexslog .log2 h2 {
+  color: var(--Dark-Grey, #484848);
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}/*# sourceMappingURL=index.module.css.map */

@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.background {
+  .text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    .backicon{
+        cursor: pointer;
+    }
+    h2 {
+      color: var(--Dark-Grey, #484848);
+      text-align: center;
+      font-family: "Inter", sans-serif;
+
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+  }
+  .controlmaps {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+
+    .mapbackground {
+        text-decoration: none;
+        cursor: pointer;
+      border-radius: 10px;
+      background: #fff;
+      box-shadow: 0px 0px 10px 0px rgba(154, 154, 154, 0.25);
+      .matchdate {
+        padding: 10px;
+        h2 {
+          color: var(--Orange, #ff7800);
+          font-family: "Inter", sans-serif;
+
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+        }
+      }
+      .matchname {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        .rival {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          h2 {
+            color: #767676;
+            font-family: "Inter", sans-serif;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+          }
+        }
+        .minus {
+          h2 {
+            color: #767676;
+            font-family: "Inter", sans-serif;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+          }
+        }
+        .mapchelsea {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          h2 {
+            color: #767676;
+            font-family: "Inter", sans-serif;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+          }
+        }
+      }
+    }
+  }
+}

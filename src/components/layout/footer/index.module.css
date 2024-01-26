@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 30px;
+}
+.background .control {
+  padding: 18px 50px;
+  border-radius: 100px;
+  background: #484848;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}/*# sourceMappingURL=index.module.css.map */

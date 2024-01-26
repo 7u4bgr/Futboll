@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  background: linear-gradient(rgba(0, 0, 0, 0.726), rgba(0, 0, 0, 0.767)), url("../../assets/images/match.png");
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  mix-blend-mode: luminosity;
+  padding-bottom: 50px;
+}
+.background .text {
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.background .text .backarrow {
+  display: flex;
+  gap: 15px;
+}
+.background .text .backarrow .text1 {
+  color: #fff;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.background .text .backarrow .text2 {
+  color: #ff7800;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.background .match {
+  padding-top: 44px;
+  display: flex;
+  justify-content: space-between;
+}
+.background .match .chelsea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.background .match .chelsea h2 {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.background .match .vs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  gap: 10px;
+}
+.background .match .vs h1 {
+  color: var(--Orange, #ff7800);
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.background .match .vs h2 {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.background .match .manchesteru {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.background .match .manchesteru h2 {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.background .button {
+  padding-top: 25px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.background .button button {
+  border-radius: 20px;
+  background: var(--Orange, #ff7800);
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 5px 50px;
+}
+
+.background1 .controltext {
+  padding-top: 20px;
+}
+.background1 .controltext .headertext {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+.background1 .controltext .headertext .trackeractive {
+  display: flex;
+  flex-direction: column;
+}
+.background1 .controltext .headertext .trackeractive .blueHR {
+  border: 1px solid #ff7800;
+}
+.background1 .controltext .headertext .trackeractive .blueText {
+  color: var(--Dark-Grey, #484848);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.background1 .controltext .headertext h2 {
+  color: var(--Gray-3, #828282);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.background1 .trackercontrol .controlstadion {
+  padding-top: 28px;
+}
+.background1 .trackercontrol .controlstadion .divs {
+  position: relative;
+}
+.background1 .trackercontrol .controlstadion .divs .svg1 {
+  position: absolute;
+  z-index: 99;
+  left: 12%;
+  top: 30%;
+}
+.background1 .trackercontrol .controlstadion .divs .svg2 {
+  position: absolute;
+  z-index: 99;
+  left: 20%;
+  top: 56%;
+}
+.background1 .trackercontrol .controlstadion .divs .svg3 {
+  position: absolute;
+  z-index: 99;
+  left: 34%;
+  top: 16%;
+}
+.background1 .trackercontrol .controlstadion .divs .svg4 {
+  position: absolute;
+  z-index: 99;
+  left: 66%;
+  top: 36%;
+}
+.background1 .trackercontrol .controlstadion .divs .svg5 {
+  position: absolute;
+  z-index: 99;
+  left: 86%;
+  top: 49%;
+}
+.background1 .trackercontrol .controlstadion .divs .svg6 {
+  position: absolute;
+  z-index: 99;
+  left: 76%;
+  top: 76%;
+}
+.background1 .trackercontrol .controlstadion .divs .svg7 {
+  position: absolute;
+  z-index: 99;
+  left: 49%;
+  top: 46%;
+}
+.background1 .trackercontrol .controlstadion .divs img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.background1 .trackercontrol .controlstadion .divs .img {
+  width: 100%;
+}
+.background1 .logcontrol .flexslog .log1 {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(154, 154, 154, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10px;
+}
+.background1 .logcontrol .flexslog .log1 h3 {
+  color: var(--Gray-4, #bdbdbd);
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.background1 .logcontrol .flexslog .log1 h2 {
+  color: var(--Dark-Grey, #484848);
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.background1 .logcontrol .flexslog .log1 h1 {
+  color: var(--Orange, #ff7800);
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.background1 .logcontrol .flexslog .log2 {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(154, 154, 154, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10px;
+  margin-top: 20px;
+}
+.background1 .logcontrol .flexslog .log2 h3 {
+  color: var(--Gray-4, #bdbdbd);
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.background1 .logcontrol .flexslog .log2 h2 {
+  color: var(--Dark-Grey, #484848);
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.background1 .logcontrol .flexslog .log2 h1 {
+  color: var(--Orange, #ff7800);
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}/*# sourceMappingURL=index.module.css.map */

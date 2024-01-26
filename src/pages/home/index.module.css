@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  background: linear-gradient(rgba(0, 0, 0, 0.726), rgba(0, 0, 0, 0.767)), url("../../assets/images/match.png");
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  mix-blend-mode: luminosity;
+}
+.background .text {
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.background .text .text1 {
+  color: #fff;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.background .text .text2 {
+  color: #ff7800;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.background .match {
+  padding-top: 44px;
+  display: flex;
+  justify-content: space-between;
+}
+.background .match .chelsea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.background .match .chelsea h2 {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.background .match .vs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+}
+.background .match .vs h2 {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.background .match .manchesteru {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.background .match .manchesteru h2 {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.background .button {
+  padding-top: 25px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.background .button a {
+  text-decoration: none;
+  border-radius: 20px;
+  background: var(--Orange, #ff7800);
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 5px 50px;
+}
+
+.smallBackground .control {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.smallBackground .control .text {
+  display: none;
+}
+.smallBackground .control .match {
+  padding-top: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.smallBackground .control .match .chelsea img {
+  width: 50px;
+}
+.smallBackground .control .match .chelsea h2 {
+  display: none;
+}
+.smallBackground .control .match .vs h2 {
+  display: none;
+}
+.smallBackground .control .match .manchesteru img {
+  width: 50px;
+}
+.smallBackground .control .match .manchesteru h2 {
+  display: none;
+}
+.smallBackground .control .button {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.smallBackground .control .button button {
+  color: #fff;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  border-radius: 20px;
+  background: var(--Orange, #FF7800);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 5px 20px;
+}
+
+.background1 .vector {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  cursor: pointer;
+}
+.background1 .upcoming {
+  padding-top: 6px;
+}
+.background1 .upcoming h2 {
+  color: var(--Dark-Grey, #484848);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.background1 .controlmaps {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow-y: auto;
+  max-height: 500px;
+}
+.background1 .controlmaps .mapbackground {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(154, 154, 154, 0.25);
+}
+.background1 .controlmaps .mapbackground .matchdate {
+  padding: 10px;
+}
+.background1 .controlmaps .mapbackground .matchdate h2 {
+  color: var(--Orange, #ff7800);
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.background1 .controlmaps .mapbackground .matchname {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.background1 .controlmaps .mapbackground .matchname .rival {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.background1 .controlmaps .mapbackground .matchname .rival h2 {
+  color: #767676;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.background1 .controlmaps .mapbackground .matchname .minus h2 {
+  color: #767676;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.background1 .controlmaps .mapbackground .matchname .mapchelsea {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.background1 .controlmaps .mapbackground .matchname .mapchelsea h2 {
+  color: #767676;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}/*# sourceMappingURL=index.module.css.map */
