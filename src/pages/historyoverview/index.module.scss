@@ -6,12 +6,9 @@
   .background {
     background: linear-gradient(rgba(0, 0, 0, 0.726), rgba(0, 0, 0, 0.767)),
       url("../../assets/images/match.png");
-  
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
-
     padding-bottom: 50px;
-  
     .text {
       padding-top: 40px;
       display: flex;
@@ -23,7 +20,6 @@
       .backarrow {
         display: flex;
         gap: 15px;
-  
         .text1 {
           color: #fff;
           text-align: center;
@@ -36,7 +32,6 @@
         .text2 {
           color: #ff7800;
           font-family: "Inter", sans-serif;
-  
           font-size: 32px;
           font-style: normal;
           font-weight: 700;
