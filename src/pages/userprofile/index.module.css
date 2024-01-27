@@ -8,7 +8,6 @@
   background: linear-gradient(rgba(0, 0, 0, 0.726), rgba(0, 0, 0, 0.767)), url("../../assets/images/match.png");
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
-  mix-blend-mode: luminosity;
   padding-bottom: 50px;
 }
 .background .control {
